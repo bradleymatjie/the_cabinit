@@ -1,0 +1,42 @@
+.services {
+  height: 640px;
+  background-color: #000d28;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 179ppx;
+  margin-top: 78px;
+
+  & h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  & div {
+    display: flex;
+    gap: 18px;
+  
+    & img {
+      width: 300px;
+      height: 300px;
+    
+    &:hover {
+      background-color: #cc9933;
+      color:#fff;
+    }
+    }
+  }
+}
+
+.kitchens,
+.bedrooms,
+.bathrooms,
+.other {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

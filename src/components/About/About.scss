@@ -1,0 +1,32 @@
+.about {
+  display: flex;
+  gap: 134px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 119px;
+
+  & div {
+    width: 451px;
+
+    & h3 {
+      font-size: 44px;
+      font-weight: 500;
+      color: #000d28;
+
+      & span {
+        color: #cc9933;
+      }
+    }
+
+    & p {
+      font-size: 22px;
+      font-family: 'Baskerville';
+      color: #000d28;
+    }
+  }
+
+  & img {
+    width: 531px;
+    height: 536px;
+  }
+}

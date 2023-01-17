@@ -1,0 +1,135 @@
+.home {
+  text-align: center;
+
+  &_title {
+    font-size: 105px;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    font-family: 'Poppins';
+    margin-top: 127px;
+    margin-bottom: 90px;
+    color: #CC9933;
+
+    & span {
+      display: block;
+      color: #001031;
+    }
+  }
+
+  &_image-container,
+  &_image-container2 {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+    & .portfolio-item {
+      width: 401px;
+      height: 248px;
+    }
+  }
+
+  &_testimonies {
+    height: 550px;
+    background-color: #000D28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 103px;
+    color: #fff;
+
+    & p {
+      font-size: 40px;
+      font-weight: 400;
+      width: 900px;
+      font-family: 'Baskerville';
+    }
+
+    &-rightArrow {
+      cursor: pointer;
+      height: 10px;
+      width: 13px;
+      line-height: 10px;
+      border: 1px solid #fff;
+      padding: 23px;
+      border-radius: 50px;
+      transition: 0.5s;
+    
+    &:hover {
+      background-color: #fff;
+    }
+    }
+
+  }
+
+  &_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 61px;
+    padding-bottom: 108px;
+
+    & div {
+      width: 390px;
+      height: 568px;
+      color: #fff;
+      background-color: #000D28;
+
+      & h3 {
+        font-size: 40px;
+        line-height: 41px;
+        font-family: 'Poppins';
+        font-weight: 400;
+      }
+
+      & p {
+        font-family: 'Baskerville';
+        font-weight: 400;
+        font-size: 24px;
+        padding: 0 35px;
+      }
+
+      & button {
+        width: 344px;
+        height: 60px;
+        font-size: 19px;
+        line-height: 20px;
+        font-family: 'Poppins';
+        background-color: #001747;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+          background-color: #CC9933;
+        }
+      }
+    }
+  }
+
+  &_last-title {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    line-height: 45px;
+    color: #000D28;
+    text-transform: uppercase;
+    margin: 0 300px;
+
+    & span {
+      display: block;
+      color: #CC9933;
+    }
+  }
+}
+
+.border-line {
+  width: 53px;
+  height: 4px;
+  background-color: #001747;
+  margin-bottom: 64px;
+  border-radius: 10px;
+  border: none;
+}
