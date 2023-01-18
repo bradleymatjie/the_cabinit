@@ -29,7 +29,7 @@ export const Testimony: React.FC = () => {
       }
       return prevValue = 0;
     });
-  }, [count]);
+  }, [count, Testimonies.length]);
   
   return (
     <section className='testimonies'>
