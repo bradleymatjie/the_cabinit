@@ -1,0 +1,20 @@
+.testimonies {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+  
+    &:hover {
+      background-color: #cc9933;
+    }
+  }
+}

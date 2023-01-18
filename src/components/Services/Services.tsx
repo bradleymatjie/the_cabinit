@@ -12,15 +12,43 @@ import otherHover from '../../media/services/otherHover.png';
 
 
 export const Services: React.FC = () => {
-  const [isHover, setIsHover] = useState(false);
+  const [isKitchenHover, setIsKitchenHover] = useState(false);
+  const [isBedroomsHover, setIsBedroomsHover] = useState(false);
+  const [isBathroomsHover, setIsbathroomsHover] = useState(false);
+  const [isOtherHover, setIsOtherHover] = useState(false);
 
-  const handleMouseEnter = () => {
-     setIsHover(true);
+  const handleMouseEnterKitchen = () => {
+     setIsKitchenHover(true);
   };
 
-  const handleMouseLeave = () => {
-     setIsHover(false);
+  const handleMouseLeaveKitchen = () => {
+     setIsKitchenHover(false);
   };
+  
+  const handleMouseEnterBedrooms = () => {
+    setIsBedroomsHover(true);
+  };
+
+ const handleMouseLeaveBedrooms = () => {
+    setIsBedroomsHover(false);
+ };
+
+ 
+ const handleMouseEnterBathrooms = () => {
+  setIsbathroomsHover(true);
+};
+
+const handleMouseLeaveBathrooms = () => {
+  setIsbathroomsHover(false);
+};
+
+const handleMouseEnterOther = () => {
+  setIsOtherHover(true);
+};
+
+const handleMouseLeaveOther = () => {
+  setIsOtherHover(false);
+};
   
   return (
     <section className='services'>
@@ -29,37 +57,37 @@ export const Services: React.FC = () => {
         <div
           className='kitchens'
           style={
-            {backgroundImage: isHover ? `url(${kitchensHover})` : `url(${kitchens})`}
+            {backgroundImage: isKitchenHover ? `url(${kitchensHover})` : `url(${kitchens})`}
           }
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnterKitchen}
+          onMouseLeave={handleMouseLeaveKitchen}
         ></div>
 
         <div
           className='bedrooms'
           style={
-            {backgroundImage: isHover ? `url(${bedroomsHover})` : `url(${bedrooms})`}
+            {backgroundImage: isBedroomsHover ? `url(${bedroomsHover})` : `url(${bedrooms})`}
           }
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnterBedrooms}
+          onMouseLeave={handleMouseLeaveBedrooms}
         ></div>
 
         <div
           className='bathrooms'
           style={
-            {backgroundImage: isHover ? `url(${bathroomsHover})` : `url(${bathrooms})`}
+            {backgroundImage: isBathroomsHover ? `url(${bathroomsHover})` : `url(${bathrooms})`}
           }
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnterBathrooms}
+          onMouseLeave={handleMouseLeaveBathrooms}
         ></div>
 
         <div
           className='other'
           style={
-            {backgroundImage: isHover ? `url(${otherHover})` : `url(${other})`}
+            {backgroundImage: isOtherHover ? `url(${otherHover})` : `url(${other})`}
           }
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnterOther}
+          onMouseLeave={handleMouseLeaveOther}
         ></div>
       </div>
     </section>
