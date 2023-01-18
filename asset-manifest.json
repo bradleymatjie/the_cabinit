@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ddf91af.css",
-    "main.js": "/static/js/main.b480e544.js",
-    "static/media/about.png": "/static/media/about.56f0248be94cf13a0eb6.png",
-    "static/media/portfolio-item3.png": "/static/media/portfolio-item3.48368df1a4cbbafbb757.png",
-    "static/media/developer-projects-img.png": "/static/media/developer-projects-img.e448d2e9950e035313e3.png",
-    "static/media/portfolio-item5.png": "/static/media/portfolio-item5.2032e8eb7ce62d04221c.png",
-    "static/media/portfolio-item8.png": "/static/media/portfolio-item8.0194501ba6c931ca0275.png",
-    "static/media/portfolio-item4.png": "/static/media/portfolio-item4.ce48dc99ebfd059fcc9e.png",
-    "static/media/portfolio-item9.png": "/static/media/portfolio-item9.e4d853e72957ded74659.png",
-    "static/media/portfolio-item2.png": "/static/media/portfolio-item2.bd4b8b7287625bdb748f.png",
-    "static/media/home-installation.png": "/static/media/home-installation.14db3cb6245e30a3bdfb.png",
-    "static/media/portfolio-item11.png": "/static/media/portfolio-item11.d0f5dac8158aeae2fd2d.png",
-    "static/media/portfolio-item7.png": "/static/media/portfolio-item7.d75afd2b036f2b8d192a.png",
-    "static/media/portfolio-item10.png": "/static/media/portfolio-item10.04eb8ed65e50bac6549c.png",
-    "static/media/otherHover.png": "/static/media/otherHover.55b82ea365f006a8a3d1.png",
-    "static/media/kitchenHover.png": "/static/media/kitchenHover.dee1f38b45a4e7eb1410.png",
-    "static/media/bedroomsHover.png": "/static/media/bedroomsHover.44a40557105fdc5453bf.png",
-    "static/media/bathroomsHover.png": "/static/media/bathroomsHover.31672a15afcf15178d58.png",
-    "static/media/portfolio-item6.png": "/static/media/portfolio-item6.f94e325d25e3ff6c43f3.png",
-    "index.html": "/index.html",
-    "main.7ddf91af.css.map": "/static/css/main.7ddf91af.css.map",
-    "main.b480e544.js.map": "/static/js/main.b480e544.js.map"
+    "main.css": "/the_cabinit/static/css/main.7ddf91af.css",
+    "main.js": "/the_cabinit/static/js/main.e4168d45.js",
+    "static/media/about.png": "/the_cabinit/static/media/about.56f0248be94cf13a0eb6.png",
+    "static/media/portfolio-item3.png": "/the_cabinit/static/media/portfolio-item3.48368df1a4cbbafbb757.png",
+    "static/media/developer-projects-img.png": "/the_cabinit/static/media/developer-projects-img.e448d2e9950e035313e3.png",
+    "static/media/portfolio-item5.png": "/the_cabinit/static/media/portfolio-item5.2032e8eb7ce62d04221c.png",
+    "static/media/portfolio-item8.png": "/the_cabinit/static/media/portfolio-item8.0194501ba6c931ca0275.png",
+    "static/media/portfolio-item4.png": "/the_cabinit/static/media/portfolio-item4.ce48dc99ebfd059fcc9e.png",
+    "static/media/portfolio-item9.png": "/the_cabinit/static/media/portfolio-item9.e4d853e72957ded74659.png",
+    "static/media/portfolio-item2.png": "/the_cabinit/static/media/portfolio-item2.bd4b8b7287625bdb748f.png",
+    "static/media/home-installation.png": "/the_cabinit/static/media/home-installation.14db3cb6245e30a3bdfb.png",
+    "static/media/portfolio-item11.png": "/the_cabinit/static/media/portfolio-item11.d0f5dac8158aeae2fd2d.png",
+    "static/media/portfolio-item7.png": "/the_cabinit/static/media/portfolio-item7.d75afd2b036f2b8d192a.png",
+    "static/media/portfolio-item10.png": "/the_cabinit/static/media/portfolio-item10.04eb8ed65e50bac6549c.png",
+    "static/media/otherHover.png": "/the_cabinit/static/media/otherHover.55b82ea365f006a8a3d1.png",
+    "static/media/kitchenHover.png": "/the_cabinit/static/media/kitchenHover.dee1f38b45a4e7eb1410.png",
+    "static/media/bedroomsHover.png": "/the_cabinit/static/media/bedroomsHover.44a40557105fdc5453bf.png",
+    "static/media/bathroomsHover.png": "/the_cabinit/static/media/bathroomsHover.31672a15afcf15178d58.png",
+    "static/media/portfolio-item6.png": "/the_cabinit/static/media/portfolio-item6.f94e325d25e3ff6c43f3.png",
+    "index.html": "/the_cabinit/index.html",
+    "main.7ddf91af.css.map": "/the_cabinit/static/css/main.7ddf91af.css.map",
+    "main.e4168d45.js.map": "/the_cabinit/static/js/main.e4168d45.js.map"
   },
   "entrypoints": [
     "static/css/main.7ddf91af.css",
-    "static/js/main.b480e544.js"
+    "static/js/main.e4168d45.js"
   ]
 }
